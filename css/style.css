@@ -1,7 +1,7 @@
 body{
     background-color:#8399A6;
     color:#3A515F;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Console", Courier, monospace;
     font-size:16px;
     line-height:1.6em;
     margin:0;
@@ -10,8 +10,19 @@ body{
 .container{
     width: 1120px;
     margin:auto;
-    overflow:hidden;
+    overflow: hidden;
 }
+
+.clr{
+    clear:both;
+}
+
+#logo{
+    padding: 0;
+    margin:0;
+    float: left;
+}
+
 #navbar a{
     text-decoration: none;
     color: #FFFFFF;
@@ -50,4 +61,88 @@ body{
 #main-header h1{
     text-align: center;
     font-size:96px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#about{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+    background-color: #FFD376;
+    color: #FFFFFF;
+    float:left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#about p{
+    width: 55%;
+    color:#3A515F;
+}
+
+#aboutLogo{
+    float: right;
+    margin-top: 50px
+}
+
+#joinPic{
+    float: left;
+    width: 40%;
+    height: 349px;
+    object-fit: cover;
+}
+
+#join{
+    margin-bottom: 40px;
+    width: 60%;
+    background-color: #FFD376;
+    color: #FFFFFF;
+    float:right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#join p{
+    color:#3A515F;
+}
+
+#join ul{
+    color:#3A515F;
+}
+
+#meetingDate{
+    font-weight: 600;
+}
+
+#picnic{
+    float: left;
+}
+
+#partyP{
+    padding-left: 42px;
+}
+
+#cake{
+    float:right;
+}
+
+#feedback{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+    background-color: #FFD376;
+    color: #FFFFFF;
+    float:left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#feedback p{
+    color:#3A515F;
+}
+
+#vP{
+    float: right;
+    margin-top: 25px
 }
