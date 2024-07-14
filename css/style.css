@@ -20,6 +20,7 @@ body{
 
 #logo{
     float: left;
+    max-width: 40%;
 }
 
 #navbar a{
@@ -82,7 +83,9 @@ body{
 
 #aboutLogo{
     float: right;
-    margin-top: 50px
+    margin-top: 50px;
+    max-width: 40%;
+        
 }
 
 #joinPic{
@@ -96,7 +99,7 @@ body{
 
 #join{
     margin-bottom: 40px;
-    width: 60%;
+    max-width: 60%;
     background-color: #FFD376;
     color: #FFFFFF;
     float:right;
@@ -121,15 +124,18 @@ body{
 #picnic{
     float: left;
     border-radius: 5px;
+    max-width: 31%;
 }
 
 #partyP{
     padding-left: 42px;
+    max-width: 30%;
 }
 
 #cake{
     float:right;
     border-radius: 5px;
+    max-width: 32%;
 }
 
 #feedback{
@@ -150,7 +156,8 @@ body{
 
 #vP{
     float: right;
-    margin-top: 25px
+    margin-top: 25px;
+    max-width:40%;
 }
 
 #contacts{
@@ -204,8 +211,10 @@ body{
 }
 
 #game{
-    margin: 40px 160px;
-    height: 200px;
+    /*margin: 40px 160px;
+    height: 200px;*/
+    max-width: 75%;
+    margin: auto;
     background-image:url('../images/Rectangle\ 11.png');
     color: #FFFFFF;
     padding: 15px;
@@ -235,13 +244,13 @@ body{
 }
 
 #stPat{
+    max-width:20%;
     float:left;
 }
 
 #view{
     display: block;
-    width: 50%;
-    height: 100px;
+    max-width: 45%;
     background-color: #FFD376;
     color: #FFFFFF;
     padding: 10px;
@@ -249,9 +258,15 @@ body{
     border-radius: 5px;
     font-weight: bold;
     line-height: 100px;
-    margin: auto;
-    font-size: 32px;
     float:left;
+    margin-left: 8%;
+    font-size: 32px;
+}
+
+#winterP{
+    padding: 0;
+    max-width: 20%;
+    float:right;
 }
 
 a{
@@ -293,8 +308,39 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
+   .body{
+    font-size: 12pt;
+    }
+   
     .container{
         width: 100%;
+    }
+    #navbar li{
+        font-size: 8pt;
+        margin-right: 2%;
+    }
+
+    #partyP{
+        padding-left:15px;
+        padding-top: 15px;
+    }
+
+    #bakeSale{
+        width: 100%;
+        object-fit: none;
+        border-radius: 5px;
+    }
+
+    #contacts{
+        clear:right;
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+    }
+
+    #contacts li{
+        margin: 0;
     }
 }
 /*
@@ -302,17 +348,74 @@ a{
     .container{
         width: 100%;
     }
+    #navbar li{
+        font-size: 16pt;
+        margin-right: 2%;
+    }
 }*/
 
 @media only screen and (max-width: 768px) {
     .container{
         width: 100%;
     }
+
+    #navbar li{
+        font-size: 8pt;
+        margin-right: 2%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .container{
         width: 100%;
+    }
+
+    #navbar{
+        position: fixed;
+        bottom:0px;
+        background-color:#3A515F;
+        color:#8399A6;
+        padding-left: 10px;
+        line-height: 20px;
+        height:8%;
+        width: 100%;
+    }
+
+    #navbar li{
+        font-size: 8pt;
+        margin-right: 2%;
+    }
+
+    #joinPic{
+        width: 100%;
+        object-fit: none;
+        border-radius: 5px;
+    }
+
+    #join{
+        clear: both;
+        max-width:90%;
+        border-radius: 5px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #view {
+        line-height: 40px;
+    }
+
+    #bakeSale{
+        width: 100%;
+        object-fit: none;
+        border-radius: 5px;
+    }
+
+    #contacts{
+        clear:right;
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
     }
 }
 
