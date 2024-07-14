@@ -7,6 +7,7 @@ body{
     margin:0;
 }
 
+
 .container{
     width: 1120px;
     margin:auto;
@@ -18,7 +19,8 @@ body{
 }
 
 #logo{
-    padding: 0;
+    padding-top: 30px;
+    padding-left: 30px;
     margin:0;
     float: left;
 }
@@ -39,8 +41,7 @@ body{
 #navbar{
     position: absolute; 
     top: 0px; 
-    left: 402px;
-    right: 0px;
+    left: 700px;
 }
 
 #navbar ul{
@@ -74,6 +75,7 @@ body{
     float:left;
     padding: 15px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 #about p{
@@ -91,6 +93,8 @@ body{
     width: 40%;
     height: 349px;
     object-fit: cover;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
 }
 
 #join{
@@ -101,6 +105,8 @@ body{
     float:right;
     padding: 15px;
     box-sizing: border-box;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
 }
 
 #join p{
@@ -117,6 +123,7 @@ body{
 
 #picnic{
     float: left;
+    border-radius: 5px;
 }
 
 #partyP{
@@ -125,6 +132,7 @@ body{
 
 #cake{
     float:right;
+    border-radius: 5px;
 }
 
 #feedback{
@@ -136,6 +144,7 @@ body{
     float:left;
     padding: 15px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 #feedback p{
@@ -145,4 +154,144 @@ body{
 #vP{
     float: right;
     margin-top: 25px
+}
+
+#contacts{
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+    background-color: #FFD376;
+    color: #FFFFFF;
+    float:left;
+    padding: 15px;
+    box-sizing: border-box;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+
+#contacts h1{
+    float: left;
+    padding-left: 40px;
+}
+
+#insta{
+    color:#3A515F;
+    float: right;
+    padding-top: 25px;
+    padding-right: 38px;
+    list-style-image: url('../images/InstaSmol.png');
+}
+
+#bakeSale{
+    margin-top: 40px;
+    float: left;
+    width:40%;
+    height: 280px;
+    object-fit: cover;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+
+#names{
+    color:#3A515F;
+    float: left;
+    list-style: none;
+}
+
+#emails{
+    color:#3A515F;
+    float: right;
+    list-style-image: url('../images/MailIcon.png');
+   
+}
+
+#game{
+    margin: 40px 160px;
+    height: 200px;
+    background-image:url('../images/Rectangle\ 11.png');
+    color: #FFFFFF;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+
+#game h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #8399A6;
+    font-weight: bold;
+    line-height: 50px;
+    margin: auto;
+    font-size: 24px;
+}
+
+#stPat{
+    float:left;
+}
+
+#view{
+    display: block;
+    width: 50%;
+    height: 100px;
+    background-color: #FFD376;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 100px;
+    margin: auto;
+    font-size: 32px;
+    float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+#game a:hover{
+    text-decoration: underline;
+}
+
+#view a:hover{
+    text-decoration: underline;
+}
+
+#view a{
+    color:#FFFFFF;
+}
+
+#winterP{
+    float:right;
+}
+
+#main-footer{
+    background: #FEC156;
+    color: #1F1E23;
+    height: 80px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:40px;
+}
+
+#main-footer p{
+    float:left;
+}
+
+#main-footer li{
+    float: right;
+    list-style-image: url('../images/DarkInsta.png');
 }
