@@ -14,6 +14,31 @@ body{
     overflow: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.dropdown{
+    float:left;
+    margin-left: 10%;
+    overflow: hidden;
+    padding: 10px;
+    background-color:#FFD376;
+    border-radius: 5px;
+    width:40%;
+}
+
+.dropdown a{
+    color:#3A515F;
+}
+
+.dropdown a:visited{
+    color:#1F1E23;
+}
+
 .clr{
     clear:both;
 }
@@ -44,7 +69,7 @@ body{
 }
 
 #navbar{
-    padding-left: 173px;
+    padding-left: 175px;
 }
 
 #navbar li{
@@ -66,8 +91,8 @@ body{
 }
 
 #about{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     width: 60%;
     background-color: #FFD376;
     color: #FFFFFF;
@@ -98,7 +123,7 @@ body{
 }
 
 #join{
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     max-width: 60%;
     background-color: #FFD376;
     color: #FFFFFF;
@@ -139,7 +164,7 @@ body{
 }
 
 #feedback{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 40px;
     width: 60%;
     background-color: #FFD376;
@@ -163,7 +188,7 @@ body{
 #contacts{
     float: right;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     width: 60%;
     background-color: #FFD376;
     color: #FFFFFF;
@@ -248,7 +273,7 @@ body{
     float:left;
 }
 
-#view{
+summary{
     display: block;
     max-width: 45%;
     background-color: #FFD376;
@@ -257,9 +282,8 @@ body{
     text-align: center;
     border-radius: 5px;
     font-weight: bold;
-    line-height: 100px;
+    line-height: 50px;
     float:left;
-    margin-left: 8%;
     font-size: 32px;
 }
 
@@ -269,24 +293,16 @@ body{
     float:right;
 }
 
-a{
-    text-decoration: none;
-}
-
-#game a:hover{
-    text-decoration: underline;
-}
-
-#view a:hover{
-    text-decoration: underline;
-}
-
-#view a{
+#view{
     color:#FFFFFF;
 }
 
-#winterP{
-    float:right;
+#book{
+    float:left;
+}
+
+#dates{
+    float:left;
 }
 
 #main-footer{
@@ -307,6 +323,7 @@ a{
   padding-bottom: 2%;
 }
 
+
 @media only screen and (max-width: 600px) {
    .body{
     font-size: 12pt;
@@ -317,7 +334,11 @@ a{
     }
     #navbar li{
         font-size: 8pt;
-        margin-right: 2%;
+        margin-right: 1%;
+    }
+
+    #vP{
+        margin-top:60%;
     }
 
     #partyP{
@@ -383,7 +404,7 @@ a{
 
     #navbar li{
         font-size: 8pt;
-        margin-right: 2%;
+        margin-right: 1%;
     }
 
     #joinPic{
@@ -400,7 +421,7 @@ a{
         margin-right: 5%;
     }
 
-    #view {
+    summary{
         line-height: 40px;
     }
 
@@ -416,6 +437,12 @@ a{
         margin-left: 5%;
         margin-right: 5%;
         border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        width: 100%;
     }
 }
 
