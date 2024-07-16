@@ -365,10 +365,15 @@ summary{
     }
 
     #insta{
-        font-size: 60%;
+        clear: both;
+        float: left;
+        font-size: 80%;
+        padding-left: 4%;
     }
 
     #emails{
+        clear:both;
+        float:left;
         font-size: 70%;
     }
 
