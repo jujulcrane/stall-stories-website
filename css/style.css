@@ -325,16 +325,61 @@ summary{
 
 
 @media only screen and (max-width: 600px) {
-   .body{
+   p{
     font-size: 12pt;
-    }
+    line-height: 1.15em;
+   }
    
     .container{
         width: 100%;
     }
+    #navbar{
+        z-index: 1000;
+    }
+
     #navbar li{
         font-size: 8pt;
         margin-right: 1%;
+    }
+
+    #about{
+        width: 90%;
+        clear:both;
+        margin: 10% 5%;
+        background-color: #FFD376;
+        color: #FFFFFF;
+        padding: 15px;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    
+    #about p{
+        color:#3A515F;
+    }
+    
+    #aboutLogo{
+        clear:both;
+        position: relative;
+        bottom: 140px;
+        max-width: 40%;  
+        margin-bottom: 0;
+        z-index: 900;
+    }
+
+    .block{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #joinPic{
+        position: absolute;
+        /*top: 720px;*/
+        top: 100%;
+    }
+
+    #join{
+        margin-top: 30%;
+        margin-bottom: 30px;
     }
 
     #vP{
