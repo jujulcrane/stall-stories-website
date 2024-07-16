@@ -379,11 +379,15 @@ summary{
 
     #join{
         margin-top: 30%;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+    }
+
+    #feedback{
+        margin-top: 40px;
     }
 
     #vP{
-        margin-top:60%;
+        margin-top:20%;
     }
 
     #partyP{
